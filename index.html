@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alan Dutra | Saxofonista Profissional</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">ALAN DUTRA</div>
+        <div class="hamburger" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Audio</a></li
+            <li><a href="#contato">Orçamento</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>A Elegância do Saxofone</h1>
+            <p>Música para casamentos, eventos corporativos e jantares.</p>
+            <a href="#contato" class="btn-primary">Contratar Agora</a>
+        </div>
+    </header>
+
+
+    <section id="sobre" class="section">
+        <h2></h2>
+        <div class="sobre-container">
+            <div class="sobre-text">
+               
+                    
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <section id="musica" class="section musica-section">
+        <h2>Audio</h2>
+        <p>Sinta a experiência, ouça uma amostra do repertório para eventos.</p>
+
+        <div class="audio-card">
+            <div class="audio-info">
+                <strong>Jazz Standard - Smooth Sax</strong>
+            </div>
+
+            <audio controls>
+                <source
+                    src="/audio/When a Man Loves a Woman  Brendan Ross Saxophone version - Brendan Ross (youtube).mp3"
+                    type="audio/mpeg">
+                Seu navegador não suporta áudio.
+            </audio>
+
+            <audio controls>
+                <source src="/audio/Dido - Thank You - Tenor Saxophone by charlez360 - charlez360 (youtube).mp3"
+                    type="audio/mpeg">
+                Seu navegador não suporta áudio.
+            </audio>
+
+            <audio controls>
+                <source
+                    src="/audio/Roxette - It Must Have Been Love (Saxophone Cover by JK Sax) - JK Sax - Juozas Kuraitis Saxophonist (youtube).mp3"
+                    type="audio/mpeg">
+                Seu navegador não suporta áudio.
+            </audio>
+
+
+        </div>
+    </section>
+
+  
+    </audio>
+    </div>
+    </section>
+
+    <a href="https://wa.me/5532999999999?text=Olá%20Alan,%20gostaria%20de%20um%20orçamento%20para%20evento."
+        class="whatsapp-float" target="_blank">
+        <i data-lucide="message-circle"></i>
+        <span>Orçamento Rápido</span>
+    </a>
+    <section id="agenda" class="section agenda-section">
+        <div class="container">
+            <h2>Agenda de Shows</h2>
+            <p>Acompanhe as próximas apresentações de Alan Dutra</p>
+
+            <div class="agenda-wrapper">
+                <div class="agenda-item">
+                    <div class="date-box">
+                        <span class="day">15</span>
+                        <span class="month">MAR</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Noite de Jazz - Blue Note</h3>
+                        <p><i data-lucide="map-pin"></i> Juiz de Fora, MG</p>
+                    </div>
+                    <div class="event-time">
+                        <span>20:00h</span>
+                    </div>
+                </div>
+
+                <div class="agenda-item">
+                    <div class="date-box">
+                        <span class="day">22</span>
+                        <span class="month">MAR</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Recital de Saxofone - Teatro Solar</h3>
+                        <p><i data-lucide="map-pin"></i> Rio de Janeiro, RJ</p>
+                    </div>
+                    <div class="event-time">
+                        <span>19:30h</span>
+                    </div>
+                </div>
+
+                <div class="agenda-item privado">
+                    <div class="date-box">
+                        <span class="day">28</span>
+                        <span class="month">MAR</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Evento Particular</h3>
+                        <p><i data-lucide="lock"></i> Casamento Privado</p>
+                    </div>
+                    <div class="event-time">
+                        <span>--:--</span>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="section contato-section">
+        <div class="container">
+            <h2>Solicite um Orçamento</h2>
+            <p>Garanta a trilha sonora perfeita para o seu momento especial.</p>
+
+            <form id="form-contato" class="contato-form">
+                <div class="input-group">
+                    <input type="text" name="nome" placeholder="Seu Nome Completo" required>
+                    <input type="email" name="email" placeholder="Seu Melhor E-mail" required>
+                </div>
+
+                <div class="input-group">
+                    <input type="text" name="data" placeholder="Data do Evento (DD/MM/AAAA)"
+                        onfocus="(this.type='date')">
+                    <select name="tipo-evento" required>
+                        <option value="" disabled selected>Tipo de Evento</option>
+                        <option value="casamento">Casamento</option>
+                        <option value="corporativo">Evento Corporativo</option>
+                        <option value="jantar">Jantar / Restaurante</option>
+                        <option value="aniversario">Aniversário</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+
+                <textarea name="mensagem" rows="5"
+                    placeholder="Conte um pouco mais sobre o evento (local, duração, repertório preferido...)"
+                    required></textarea>
+
+                <button type="submit" class="btn-enviar">
+                    Enviar Solicitação <i data-lucide="send"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h2 class="logo">ALAN DUTRA</h2>
+                <p>Transformando momentos em memórias através da música.</p>
+            </div>
+            
+<div class="footer-social">
+    <a href="https://instagram.com/" target="_blank" aria-label="Instagram">
+        <i data-lucide="instagram"></i>
+    </a>
+    <a href="https://www.youtube.com/" target="_blank" aria-label="YouTube">
+        <i data-lucide="youtube"></i>
+    </a>
+    <a href="https://facebook.com/seuusuario" target="_blank" aria-label="Facebook">
+        <i data-lucide="facebook"></i>
+    </a>
+</div>
+
+<script src="https://unpkg.com/lucide@latest"></script>
+
+<script>
+  // Essencial: Este comando "ativa" os ícones no seu HTML
+  lucide.createIcons();
+</script>
+            <div class="footer-info">
+                <p>&copy; 2024 Alan Dutra. Todos os direitos reservados.</p>
+                <p>Desenvolvido com paixão pela música.</p>
+            </div>
+        </div>
+
+
+    </footer>
+
+</body>
+
+</html>
